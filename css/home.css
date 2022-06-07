@@ -1,0 +1,171 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(
+'https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+}
+
+::-moz-selection{ /* Firefox */
+    color:rgba(255, 255, 255, 1);
+    background: #000000;
+}
+
+::selection{/* 被選取時的顏色 */
+    color:rgba(255, 255, 255, 1);
+    background:#000000;
+}
+
+body{
+	background: #000000;
+}
+
+section{
+	position: relative;
+	overflow:hidden;
+	min-width:1440px;
+	height:800px;
+	background:url("../images/map.png");
+	background-size:100%;
+	ackground-size:cover;
+}
+
+
+
+/* nav bar */
+nav{
+	position: sticky;
+	float: right;
+	width:10%;
+	text-align:left;
+	z-index: 10000;
+	top:30px;
+}
+
+nav li{
+	display: block;
+}
+
+nav li a{
+	text-decoration: none;
+	color:rgba(255, 255, 255, 1);
+	display: inline-block;
+	padding:5px 10px;
+	font-family: 'Libre Baskerville', serif;
+	font-size:30px;
+}
+
+nav li a:hover{
+    border-bottom:solid #FFFFFF 1px;
+}
+
+.ch_bg{
+	background: #000000;
+}
+/*.en{
+	position: absolute;
+	top: 70%;
+	left: 29%;
+}*/
+
+
+.en a{
+	display:block;
+	padding: 5px 15px;
+	font-family: 'Noto Serif TC', serif;
+	color:#FFFFFF;
+	font-weight:600;
+	font-size:23px;
+	text-decoration: none;
+	letter-spacing:5px;
+	box-shadow:0 0 8px #000000;
+}
+
+.en a:hover{
+	color:#000000;
+	background:#FFFFFF;
+	box-shadow:0 0 20px #000000;
+	cursor: hand;
+}
+
+article{
+	position: absolute;
+	top: 650px;
+	left: 1100px;
+}
+
+.fake{	
+	opacity: 40%;
+}
+
+.sound{
+	position: absolute;
+	top:20px;
+	opacity: 40%;	
+}
+
+.sound2{
+	position: relative;
+	top: 55%;
+	left: 10%;
+	opacity: 30%;
+}
+
+
+.sound3{
+	position: relative;
+	top: 65%;
+	left: 5%;
+	opacity: 40%;
+}
+
+
+.sound4{
+	position: relative;
+	top: 30%;
+	left: 40%;
+	opacity: 35%;
+}
+
+.sound5{
+	position: relative;
+	top: 1%;
+	left: 62%;
+	opacity: 55%;
+}
+
+
+.sound6{
+	position: relative;
+	top: 30%;
+	left: 50%;
+	opacity: 45%;
+}
+
+
+.sound7{
+	position: absolute;
+	top: 87%;
+	left: 34%;
+	opacity: 28%;
+}
+
+
+.sound8{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	opacity: 28%;
+}
+
+
+.sound9{
+	position: absolute;
+	top: 45%;
+	left: 75%;
+	opacity: 30%;
+}
