@@ -28,7 +28,7 @@ section{
 	position: relative;
 	overflow:hidden;
 	min-width:1380px;
-	height:780px;
+	height:770px;
 	background:url("../images/map.png");
 	background-size:100%;
 	ackground-size:cover;
@@ -66,6 +66,7 @@ nav li a:hover{
 .ch_bg{
 	background: #000000;
 }
+
 /*.en{
 	position: absolute;
 	top: 70%;
@@ -105,7 +106,7 @@ article{
 .sound{
 	position: absolute;
 	top:20px;
-	left: 2%;
+	left: 1%;
 	opacity: 35%;	
 }
 
