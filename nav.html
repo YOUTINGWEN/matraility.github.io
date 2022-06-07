@@ -1,0 +1,16 @@
+<ul>
+	<li><a href="index.html">HOME</a></li>
+	<li><a href="index2.html">JOIN</a></li>
+</ul>
+
+
+
+<script>
+$(document).ready(function(){
+	
+	var pn = $("body").data("pagenum");
+	$("li").eq(pn) .addClass("ch_bg");
+	//增加點選頁面後的固定底線，記得body後面增加編號
+})
+</script>
+
